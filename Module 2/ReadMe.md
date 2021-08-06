@@ -42,7 +42,7 @@
   - [x] В staging (схема БД stg)
   - [x] В Business Layer (схема БД dw)
 
-## Google Data Studio: подключение к БД в AWS RDS и создание дашборда
+## Создание дашборда Google Data Studio на данных из БД в AWS RDS
 
 [Дашборд в Data Studio](https://datastudio.google.com/reporting/42abf109-a99d-4679-9261-7f3320facb7b)
 
