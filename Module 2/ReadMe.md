@@ -28,9 +28,11 @@
 
 **Перенос данных в новую схему хранения данных**
 
-![SQL скрипт переноса данных в новую схему](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_analytics_db_SuperStore.sql)
+- [x] [SQL скрипт переноса данных в новую схему](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_analytics_db_SuperStore.sql)
 
 **Анализ и устранение коллизий в исходных данных. Проверка полноты перенесенных данных**
+
+- [x] [SQL скрипт проверки и корректировки данных](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_analytics_db_SuperStore.sql)
 
 ## Создание БД в AWS RDS и загрузка данных в облако
 
@@ -42,4 +44,6 @@
 
 ## Google Data Studio: подключение к БД в AWS RDS и создание дашборда
 
-[Дашборд в Data Studio](temptemptemptemptemptemptemptemptemptemptemptemptemptemptemptemptemptemptemptemptemptemptemptemp)
+[Дашборд в Data Studio](https://datastudio.google.com/reporting/42abf109-a99d-4679-9261-7f3320facb7b)
+
+![Дашборд](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Super%20Store%20Dashboard%20(google%20datastudio).png)
