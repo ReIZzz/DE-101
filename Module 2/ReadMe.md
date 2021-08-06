@@ -44,6 +44,6 @@
 
 ## Создание дашборда Google Data Studio на данных из БД в AWS RDS
 
-[Дашборд в Data Studio](https://datastudio.google.com/reporting/42abf109-a99d-4679-9261-7f3320facb7b)
+[Дашборд в Google Data Studio](https://datastudio.google.com/reporting/42abf109-a99d-4679-9261-7f3320facb7b)
 
 ![Дашборд](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Super%20Store%20Dashboard%20(google%20datastudio).png)
