@@ -1,0 +1,8 @@
+37 23 14 * * /Users/ZN/Documents/GitHub/DE-101/Module_4/4.4_introduction_pentaho/JOBs_add_Transformation/scheduling_job.sh
+
+
+
+
+# you mast provide whole access to disc for Cron. Setting up it on privacy setting menu. Add cron to list (from: /usr/sbin/cron)
+# https://blog.bejarano.io/fixing-cron-jobs-in-mojave/
+# https://1cloud.ru/help/linux/kak-nastroit-planirovshchik-cron-na-crontab-linux
