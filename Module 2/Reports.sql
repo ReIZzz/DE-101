@@ -1,6 +1,6 @@
 -- Reports of Superstore
 
--- based on loaded data from *.xls (1st module of the best course Data Engineering [DE -101])
+-- based on loaded data from *.xls (1st module)
 -- https://datalearn.ru
 
 
