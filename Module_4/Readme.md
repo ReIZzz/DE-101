@@ -3,13 +3,12 @@
 
 ## 1. Создание 2 JOB и 3 трансформаций в Pentaho Data Integration (PDI), а также настройка расписания обновления через утилиту crone
 
-**Основной JOB**
-В рамках данного JOBа проихводится загрузка данных с репозитория git, 
+### Основной JOB
+В рамках данного JOBа проихводится загрузка данных с репозитория git двумя разными способами, объединение данных и вывод в несколько файлов разного типа
 ![Основной JOB](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/JOBs_add_Transformation/img/final_job.png)
 
 
-**JOB для загрузки данных**
--
+### JOB для загрузки данных
 *Данные загружены двумя разными способами:*
 - Через шаг Pentaho – "HTTP"
 - Через shell скрипт
@@ -19,20 +18,17 @@
   ```
 <img src="https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/JOBs_add_Transformation/img/job_download_samplestore.png" width = "200">
 
-**Основная трансформация**
--
+### Основная трансформация
 В рамках трансформации произведено объединение данных с всех листов загруженной на предыдущем шаге книги excel
 
 ![Основная Transformation](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/JOBs_add_Transformation/img/transformation_general.png)
 
-**Трансформация вывода в различные типы файлов с разбивкой по необходимому критерию**
--
+### Трансформация вывода в различные типы файлов с разбивкой по необходимому критерию
 В рамках трансформации произведена выборка необходимых данных и каждые из них сохранены в табличном или не табличном типе данных. Выбраны данные по продуктам, информации о возврате товара, а также выделены регионы и часть штатов доставки.
 
 ![Transformation фильтарция и вывод в файл](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/JOBs_add_Transformation/img/transformation_for_task.png)
 
-**Сформировано расписание для автоматизации запуска JOBа**
--
+### Сформировано расписание для автоматизации запуска JOBа
 При помощи shell скрипта реализован запуск финального JOBа через модуль Kitchen (PDI)
 
 ```bash
@@ -43,24 +39,20 @@
 
 
 ## 2. Сформирован JOB и 3 трансформации для загрузки данных в развернутую локально БД (postgres)
--
+
 - Произведена загрузка данных в БД в область со схемой для первоначалной загрузки сырых данных ```Staging```
 - Сформирована отдельная схема хранилища данных ```DW``` в БД и сформированы таблицы измерений ```Dimension tables``` в которые загружены данные из области ```Staging```
 - Сформирована таблица фактических значенией ```Fact table``` в которую загружены данные 
 
-**Основной JOB**
--
+### Основной JOB
 ![Основной JOB](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/Pentaho%20Job.png)
 
-**Загрузка данных в область Sraging**
--
+### Загрузка данных в область Sraging
 <img src="https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/staging%20tables.png"
      width = "400">
 
-**Загрузка данных в таблицы Dimension**
--
+### Загрузка данных в таблицы Dimension
 ![Загрузка данных в таблицы Dimension](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/dim_tables.png)
 
-**Загрузка данных в таблицу Fact**
--
+### Загрузка данных в таблицу Fact
 ![Загрузка данных в таблицу Fact](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/fact_table_sales.png)
