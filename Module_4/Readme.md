@@ -19,7 +19,7 @@
 
 
 **Основная Transformation**
-В рамках трансформации произведено объединение данных с разных листов загруженной книги excel
+В рамках трансформации произведено объединение данных с всех листов загруженной на предыдущем шаге книги excel
 
 ![Основная Transformation](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/JOBs_add_Transformation/img/transformation_general.png)
 
@@ -38,4 +38,19 @@
 При помощи утилиты ```cronetab``` выполнение скрипта поставлено на расписание
 
 
-## 2. Созданы 2 JOBs, 3 Transformations и настроено расписание обновления для тестовых данных в Pentaho Data Integration (PDI)
+## 2. Сформирован JOB и 3 Transformation для загрузки данных в БД развернутую локально (postgres)
+- Произведена загрузка данных в БД в область со схемой для первоначалной загрузки сырых данных ```Staging```
+- Сформирована отдельная схема хранилища данных ```DW``` в БД и сформированы таблицы измерений ```Dimension tables``` в которые загружены данные из области ```Staging```
+- Сформирована таблица фактических значенией ```Fact table``` в которую загружены данные 
+
+**Основной JOB**
+![Основной JOB](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/Pentaho%20Job.png)
+
+**Загрузка данных в область Sraging**
+![Загрузка данных в область Sraging](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/staging%20tables.png)
+
+**Загрузка данных в таблицы Dimension**
+![Загрузка данных в таблицы Dimension](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/dim_tables.png)
+
+**Загрузка данных в таблицу Fact**
+![Загрузка данных в таблицу Fact](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/fact_table_sales.png)
