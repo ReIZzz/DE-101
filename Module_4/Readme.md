@@ -47,7 +47,7 @@
 ### Основной JOB
 ![Основной JOB](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/Pentaho%20Job.png)
 
-### Загрузка данных в область Sraging
+### Загрузка данных в область Staging
 <img src="https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Lab_4.4/img/staging%20tables.png"
      width = "400">
 
