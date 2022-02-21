@@ -151,7 +151,6 @@ load_orders_data_to_db_stg = PostgresOperator(
         FROM '/Users/ZN/Documents/GitHub/DE-101/Module_4/4.7_Fancy_ETL/Airflow/.venv/app/orders_sample-super-store.csv'
         DELIMITER ','
         CSV HEADER;
-
     """,
 )
 
