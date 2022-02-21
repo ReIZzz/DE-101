@@ -2,11 +2,11 @@
 
 В рамках данного модуля произведена локальная установка Apache Airflow, выполнено скачивание данных, конвертация и загрузка в локально развернутую БД Postgres. Также выполнено объединение данных в одну таблицу.
 
-## Общий вид DAG на Airflow
+## Общий вид DAGа на Airflow
 ![Общий вид DAG](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/img/dag_superstore_airflow.png)
 
 
-## Код DAG'a
+## Код DAGа
 [super_store_dag](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/super_store_dag.py)
 
 ```python
