@@ -7,7 +7,6 @@
 
 
 ## Код DAGа
-[super_store_dag](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/super_store_dag.py)
 
 ```python
 from airflow.models import DAG
