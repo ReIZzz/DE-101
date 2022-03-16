@@ -4,7 +4,7 @@
 - произведена локальная установка Apache Airflow с базой для метаданных _PostgreSQL_ и исполнителем задач _LocalExecutor_
 - скачены исходные данные – файл [sample-super-store.xls](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/sample-super-store.xls)
 - сконвертирована, каждая страница книги _excel_, в отдельный файл формата _csv_ ([orders_.csv](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/orders_.csv), [people_.csv](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/people_.csv), [returns_.csv](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/returns_.csv))
-- данные загружены в локально развернутую БД PostgreSQL
+- данные загружены в локально развернутую БД _PostgreSQL_
 - объединены данные в одну таблицу [orders_people_returns_joined.csv](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/orders_people_returns_joined.csv)
 
 
