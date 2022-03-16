@@ -1,8 +1,13 @@
 # Модуль 4.7: Fancy ETL
 
-В рамках данного модуля произведена локальная установка Apache Airflow с базой данных _PostgreSQL_ и исполнителем задач _LocalExecutor_. 
+В рамках данного модуля:
+- произведена локальная установка Apache Airflow с базой для метаданных _PostgreSQL_ и исполнителем задач _LocalExecutor_
+- скачены исходные данные – файл [sample-super-store.xls](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/sample-super-store.xls)
+- сконвертирована, каждая страница книги _excel_, в отдельный файл формата _csv_ ([orders_.csv](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/orders_.csv), [people_.csv](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/people_.csv), [returns_.csv](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/returns_.csv))
+- данные загружены в локально развернутую БД PostgreSQL
+- объединены данные в одну таблицу [orders_people_returns_joined.csv](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/orders_people_returns_joined.csv)
 
-Выполнено скачивание данных, конвертация и загрузка в локально развернутую БД Postgres. Также выполнено объединение данных в одну таблицу.
+Использованы оперторы Bash, Python, Postgres
 
 ## Общий вид DAGа на Airflow
 ![Общий вид DAG](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/img/dag_superstore_airflow.png)
