@@ -7,9 +7,10 @@
 - данные загружены в локально развернутую БД PostgreSQL
 - объединены данные в одну таблицу [orders_people_returns_joined.csv](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/data/orders_people_returns_joined.csv)
 
-Использованы оперторы Bash, Python, Postgres
 
 ## Общий вид DAGа на Airflow
+Использованы оперторы ```Bash```, ```Python```, ```Postgres```
+
 ![Общий вид DAG](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/img/dag_superstore_airflow.png)
 
 
