@@ -3,13 +3,13 @@
 
 Часть ETL подсистем имеют [детальное описание](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.5_ETL_subsystem/34%20Subsystem%20of%20ETL%20.pdf) и примеры инструментов по их обеспечению в Pentaho Data Integration (данные взяты из _«Pentaho Kettle Solutions. Building Open Source ETL Solution s with Pentaho Data Integration»_).
 
-Extraction
+## Extraction
 
 1. Data Profiling System
 2. Change Data Capture System (CDC)
 3. Extraction System
 
-Cleaning and Conforming Data
+## Cleaning and Conforming Data
 
 4. Data Cleaning and Quality Screen Handler System
 5. Error Event Handler
@@ -17,7 +17,7 @@ Cleaning and Conforming Data
 7. Deduplication
 8. Data Conformer
 
-Data Delivery
+## Data Delivery
 
 9. Slowly Changing Dimension Processor (SCD)
 10. Surrogate Key Creation System
@@ -33,11 +33,11 @@ Data Delivery
 20. Multidimensional (OLAP) Cube Builder
 21. Data Integration Manager
 
-Managing the ETL Environment
+## Managing the ETL Environment
 
 22. Job Scheduler
-23. . Backup System
-24. . Recovery and Restart System
+23. Backup System
+24. Recovery and Restart System
 25. Version Control System, and Subsystem
 26. Version Migration System from development to test to production
 27. Workflow Monitor 
@@ -47,4 +47,4 @@ Managing the ETL Environment
 31. Parallelizing/Pipelining System
 32. Security System
 33. Compliance Reporter
-34. Metadata Repository Manager 
+34. Metadata Repository Manager
