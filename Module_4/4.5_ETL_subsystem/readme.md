@@ -1,7 +1,7 @@
 # Модуль 4.5 34 ETL Подсистемы
 В рамках данного модуля приведен перечень ETL подсистем выделяемых Ральфом Кимбаллом.
 
-Часть ETL подсистем имеют [детальное описание](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.5_ETL_subsystem/34%20Subsystem%20of%20ETL%20.pdf) и примеры инструментов по их обеспечению в Pentaho Data Integration (данные взяты из _«Pentaho Kettle Solutions. Building Open Source ETL Solution s with Pentaho Data Integration»_).
+Для части ETL подсистем приведен перевод [детального описания](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.5_ETL_subsystem/34%20Subsystem%20of%20ETL%20.pdf), также приведены примеры инструментов реализующих функции данных подсистем в Pentaho Data Integration (данные взяты из _«Pentaho Kettle Solutions. Building Open Source ETL Solution s with Pentaho Data Integration»_).
 
 ## Extraction
 
