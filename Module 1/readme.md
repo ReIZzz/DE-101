@@ -2,7 +2,8 @@
 
 В этом модуле:
 - описана архитектура имеющегося аналитического решения компании X
-- создан [дашборд для аналитики в `Excel`](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Superstore%20Dashboard/Superstore%20Dashboard.xlsx) на данных магазина [Sample - Superstore.xls](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls)
+- создан [интерактивный дашборд для аналитики в `Excel`](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Superstore%20Dashboard/Superstore%20Dashboard.xlsx) на данных магазина [Sample - Superstore.xls](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls)
+- выгружены [отчеты из дашборда на дату в формате pdf](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Superstore%20Dashboard/Состояние%20Superstore%20на%20дату.pdf)
 
 **3 слоя архитектуры:**
 1. `Source Layer` - слой систем источников данных OLTP (Online Transactional Processing) - обработка транзакций;
