@@ -1,6 +1,8 @@
 # Module 1
 
-В этом модуле представлено описание архитектуры имеющегося аналитического решения компании X.
+В этом модуле:
+- описана архитектура имеющегося аналитического решения компании X
+- создан дашборд для аналитики в `Excel` на данных магазина [Sample - Superstore.xls](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls)
 
 **3 слоя архитектуры:**
 1. `Source Layer` - слой систем источников данных OLTP (Online Transactional Processing) - обработка транзакций;
@@ -12,7 +14,7 @@
 Иногда используется ещё один слой - `Processing/Compute Layer`, где происходит трансформация данных перед загрузкой в хранилище.
 
 <details>
-  <summary>Вариант архитектуры аналитическго решения компании X. Исходное и три варианта целевого состояния.</summary>
+  <summary>Вариант архитектуры аналитическго решения компании X. Исходное и три варианта целевого состояния (на 15.05.2021).</summary>
   
   ![Architecture](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Architecture/Architecture.png)
   
