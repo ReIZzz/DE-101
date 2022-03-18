@@ -6,3 +6,5 @@
 - ## [Обзор 34 подсистем выделяемых в ETL (cогласно Ральфу Кимбаллу)](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.5_ETL_subsystem/readme.md)
 
 - ## [Fancy ETL (Apache Airflow)](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/Readme.md)
+
+Реализация функционала на Airflow ранее выполненного в Pentaho
