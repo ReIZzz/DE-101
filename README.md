@@ -1,2 +1,11 @@
 # DE-101
-it's root of Data Engineering course
+
+
+## Module 1
+
+## Module 2
+
+## Module 3
+
+
+## Module 4
