@@ -13,7 +13,9 @@
 - Перенос данных в новую схему хранения
 - Создание БД в AWS RDS и загрузка данных в облако
 - Создание дашборда Google Data Studio на данных из БД в AWS RDS
-## Module 3
+
+## [Модуль 3](https://github.com/ReIZzz/DE-101/blob/main/Module%203/Readme.md) — Визуализация данных, дашборды, отчетность, Business Intelligence
+
 
 
 ## [Module 4](https://github.com/ReIZzz/DE-101/blob/main/Module_4/Readme.md) — Интеграция и трансформация данных - ETL и ELT
