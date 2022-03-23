@@ -2,15 +2,15 @@
 
 ## Устанавка PostgreSQL на локальный компьютер и загрузка данных в БД
 
-**Загрузка данных**
+**Загрузка данных (SQL запросы)**
 
-- [2.3. table_orders.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_stg.orders.sql)
-- [2.3. table_people.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_stg.people.sql)
-- [2.3. table_returns.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_stg.returns.sql)
+- [Create table orders.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_stg.orders.sql)
+- [Create table people.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_stg.people.sql)
+- [Create table returns.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_stg.returns.sql)
 
 **SQL запросы на выборку данных из БД**
 
-- [x] [2.3. query.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Reports.sql)
+- [Reports query.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Reports.sql)
 
 ## Создание модели данных в SQLdbm для формирования новой схемы хранения данных
 
@@ -28,19 +28,19 @@
 
 **Перенос данных в новую схему хранения данных**
 
-- [x] [SQL скрипт переноса данных в новую схему](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_analytics_db_SuperStore.sql)
+- [SQL скрипт переноса данных в новую схему](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_analytics_db_SuperStore.sql)
 
 **Анализ и устранение коллизий в исходных данных. Проверка полноты перенесенных данных**
 
-- [x] [SQL скрипт проверки и корректировки данных](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_analytics_db_SuperStore.sql)
+- [SQL скрипт проверки и корректировки данных](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_analytics_db_SuperStore.sql)
 
 ## Создание БД в AWS RDS и загрузка данных в облако
 
-- [x] Создаем учетную запись в AWS
-- [x] Создаем БД PostgreSQL и настраиваем к ней доступ используя сервис AWS RDS 
-- [x] Создаем подключение к новой БД через SQL клиент (DBeaver) и загружаем данные из модуля 2.3 (Superstore dataset):
-  - [x] В staging (схема БД stg)
-  - [x] В Business Layer (схема БД dw)
+- Создаем учетную запись в AWS
+- Создаем БД PostgreSQL и настраиваем к ней доступ используя сервис AWS RDS 
+- Создаем подключение к новой БД через SQL клиент (DBeaver) и загружаем данные из модуля 2.3 (Superstore dataset):
+  - В staging (схема БД stg)
+  - В Business Layer (схема БД dw)
 
 ## Создание дашборда Google Data Studio на данных из БД в AWS RDS
 
