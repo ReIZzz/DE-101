@@ -4,9 +4,9 @@
 
 **Загрузка данных**
 
-- [x] [2.3. table_orders.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_orders.sql)
-- [x] [2.3. table_people.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_people.sql)
-- [x] [2.3. table_returns.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_returns.sql)
+- [2.3. table_orders.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_stg.orders.sql)
+- [2.3. table_people.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_stg.people.sql)
+- [2.3. table_returns.sql](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_table_stg.returns.sql)
 
 **SQL запросы на выборку данных из БД**
 
