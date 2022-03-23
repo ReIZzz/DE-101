@@ -28,11 +28,11 @@
 
 **Перенос данных в новую схему хранения данных**
 
-- [SQL скрипт переноса данных в новую схему](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_analytics_db_SuperStore.sql)
+- [SQL скрипт переноса данных в новую схему](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_dw%20(right).sql)
 
 **Анализ и устранение коллизий в исходных данных. Проверка полноты перенесенных данных**
 
-- [SQL скрипт проверки и корректировки данных](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_analytics_db_SuperStore.sql)
+- [SQL скрипт проверки и корректировки данных](https://github.com/ReIZzz/DE-101/blob/main/Module%202/Create_dw%20(right).sql)
 
 ## Создание БД в AWS RDS и загрузка данных в облако
 
