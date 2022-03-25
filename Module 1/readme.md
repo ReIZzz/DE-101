@@ -22,7 +22,7 @@
 </details>
 
 <details>
-  <summary>Прьевью дашборда в Excel</summary>
+  <summary>Превью дашборда в Excel</summary>
   
   ![Architecture](!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
   
