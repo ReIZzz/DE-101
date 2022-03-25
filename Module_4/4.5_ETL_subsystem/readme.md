@@ -1,23 +1,50 @@
 # Модуль 4.5 34 ETL Подсистемы
+В рамках данного модуля приведен перечень ETL подсистем выделяемых Ральфом Кимбаллом.
+
+Для части ETL подсистем приведен перевод [детального описания](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.5_ETL_subsystem/34%20Subsystem%20of%20ETL%20.pdf), также приведены примеры инструментов реализующих функции данных подсистем в ```Pentaho Data Integration``` (данные взяты из _«Pentaho Kettle Solutions. Building Open Source ETL Solution s with Pentaho Data Integration»_).
 
 ## Extraction
-###  1. Data Profiling System
 
-Три уровня выполнения Data Profiling:
-1. **Column Profile:** сбор статистических данных на уровне в одной столбцами;
-    * Number of distinct values: How many unique entries does the column contain? 
-    * Number of NULL and empty values: How many records have no value or an empty value? 
-    * Highest and lowest values: Not only for numeric but also for textual data. 
-    * Numeric sum, median, average, and standard deviation: Various calculations on the numeric values and value distribution. 
-    * String patterns and length: Are the values correctly stored? (For example, German postal codes should contain five digits.) 
-    * Number of words, number of upper and lowercase characters: What’s the total number of words in the column and are the words all upper, lower or mixed case? 
-    * Frequency counts: What are the top and bottom N items in a column? 
+1. Data Profiling System
+2. Change Data Capture System (CDC)
+3. Extraction System
 
+## Cleaning and Conforming Data
 
-1. **Dependency Profile:** проверка зависимости в таблице между разными столбцами;
-    * Как пример, можно привести такие зависимости как: Принадлежность города Штату(Округу), принадлежность улице городу, соотношение с индексом.
+4. Data Cleaning and Quality Screen Handler System
+5. Error Event Handler
+6. Audit Dimension Assembler
+7. Deduplication
+8. Data Conformer
 
-1. **Join Profile:** проверка зависимости между разными таблицами.
-    * Можно ли найти данные требуемые в одной таблице в другой. Каково соотношение всего количества одних данных и использование в других таблицах (как пример, количество клиентов всего и количество клиентов сделавших заказы)
+## Data Delivery
 
-###  2. Change Data Capture System (CDC)
+9. Slowly Changing Dimension Processor (SCD)
+10. Surrogate Key Creation System
+11. Hierarchy Dimension Builder
+12. Special Dimension Builder
+13. Fact Table Loader
+14. Surrogate Key Pipeline
+15. Multi-Valued Dimension Bridge Table Builder
+16. Late-Arriving Data Handler
+17. Dimension Manager System
+18. Fact Table Provider System
+19. Aggregate Builder
+20. Multidimensional (OLAP) Cube Builder
+21. Data Integration Manager
+
+## Managing the ETL Environment
+
+22. Job Scheduler
+23. Backup System
+24. Recovery and Restart System
+25. Version Control System, and Subsystem
+26. Version Migration System from development to test to production
+27. Workflow Monitor 
+28. Sort System
+29. Lineage and Dependency Analyzer
+30. Problem Escalation System
+31. Parallelizing/Pipelining System
+32. Security System
+33. Compliance Reporter
+34. Metadata Repository Manager
