@@ -24,6 +24,6 @@
 <details>
   <summary>Превью дашборда в Excel</summary>
   
-  ![Architecture](!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
-  
+  ![Architecture](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Superstore%20Dashboard/Превью%20дашборд%20в%20Excel.png)
+
 </details>
