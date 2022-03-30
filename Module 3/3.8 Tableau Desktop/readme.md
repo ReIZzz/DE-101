@@ -1,1 +1,1 @@
-
+В этом разделе представлен дашборд в `Tableau` на данных _Sample - SuperStore_ ранее реализованный в [`Excel`](https://github.com/ReIZzz/DE-101/raw/main/Module%201/Superstore%20Dashboard/Превью%20дашборд%20в%20Excel.png) и [`Google Data Studio`](https://github.com/ReIZzz/DE-101/blob/main/Module%202/ReadMe.md#создание-дашборда-google-data-studio-на-данных-из-бд-в-aws-rds)
