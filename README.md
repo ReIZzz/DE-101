@@ -17,7 +17,7 @@
 ## [Модуль 3](https://github.com/ReIZzz/DE-101/blob/main/Module%203/Readme.md) – Визуализация данных, дашборды, отчетность, Business Intelligence
 - Дашборд Sample - SuperStore `Tableau`
 - Дашборд статистика covid-19 `Power BI`
-- Финальный проект (Capstone Project) `Tableau`
+- Финальный проект (Airbnb) `Tableau`
 
 
 ## Модуль 4 — Интеграция и трансформация данных - ETL и ELT
