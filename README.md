@@ -15,9 +15,9 @@
 - Создание дашборда `Google Data Studio` на данных из БД в `AWS RDS`
 
 ## [Модуль 3](https://github.com/ReIZzz/DE-101/blob/main/Module%203/Readme.md) – Визуализация данных, дашборды, отчетность, Business Intelligence
-- дашборд на данных Sample - SuperStore `Tableau`
-- дашборд по статистике covid-19 `Power BI`
-- финальный проект (Capstone Project) `Tableau`
+- Дашборд Sample - SuperStore `Tableau`
+- Дашборд статистика covid-19 `Power BI`
+- Финальный проект (Capstone Project) `Tableau`
 
 
 ## Модуль 4 — Интеграция и трансформация данных - ETL и ELT
