@@ -1,1 +1,1 @@
-В этом разделе представлен дашборд в `Tableau` на данных _Sample - SuperStore_ ранее реализованный в `Excel` [(Модуль 1)](https://github.com/ReIZzz/DE-101/blob/main/Module%201/readme.md) и `Google Data Studio`[(Модуль 2)](https://github.com/ReIZzz/DE-101/blob/main/Module%202/ReadMe.md)
+В этом разделе представлен дашборд в `Tableau` на данных _Sample - SuperStore_ ранее реализованный в `Excel` [(Модуль 1)](https://github.com/ReIZzz/DE-101/blob/main/Module%201/readme.md) и `Google Data Studio` [(Модуль 2)](https://github.com/ReIZzz/DE-101/blob/main/Module%202/ReadMe.md)
