@@ -15,9 +15,12 @@
 - Создание дашборда `Google Data Studio` на данных из БД в `AWS RDS`
 
 ## [Модуль 3](https://github.com/ReIZzz/DE-101/blob/main/Module%203/Readme.md) – Визуализация данных, дашборды, отчетность, Business Intelligence
+- Дашборд Sample - SuperStore `Tableau`
+- Дашборд статистика covid-19 `Power BI`
+- Финальный проект (Airbnb) `Tableau`
 
 
-
-## [Модуль 4](https://github.com/ReIZzz/DE-101/blob/main/Module_4/Readme.md) — Интеграция и трансформация данных - ETL и ELT
-- `Pentaho Data Integration`
-- 
+## Модуль 4 — Интеграция и трансформация данных - ETL и ELT
+- [`Pentaho Data Integration`](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Readme.md)
+- [Обзор 34 подсистем выделяемых в ETL](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.5_ETL_subsystem/readme.md)
+- [`Appache Airflow`](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/Readme.md)
