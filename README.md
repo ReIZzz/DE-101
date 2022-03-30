@@ -21,4 +21,6 @@
 
 
 ## [Модуль 4](https://github.com/ReIZzz/DE-101/blob/main/Module_4/Readme.md) — Интеграция и трансформация данных - ETL и ELT
-- `Pentaho Data Integration`
+- [`Pentaho Data Integration`](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.4_introduction_pentaho/Readme.md)
+- [Обзор 34 подсистем выделяемых в ETL](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.5_ETL_subsystem/readme.md)
+- [`Appache Airflow`](https://github.com/ReIZzz/DE-101/blob/main/Module_4/4.7_Fancy_ETL/Readme.md)
