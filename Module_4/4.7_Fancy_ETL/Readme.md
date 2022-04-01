@@ -1,4 +1,4 @@
-# Модуль 4.7: Fancy ETL
+# Appache Airflow
 
 В рамках данного модуля:
 - произведена локальная установка _Apache Airflow_ с базой данных _PostgreSQL_ и исполнителем задач _LocalExecutor_
