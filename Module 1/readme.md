@@ -18,16 +18,8 @@
 
 ________________
   
-<details>
-  <summary>Вариант архитектуры аналитическго решения компании X. Исходное и три варианта целевого состояния (на 15.05.2021)</summary>
+Вариант архитектуры аналитическго решения компании X. Исходное и три варианта целевого состояния
+![Architecture](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Architecture/Architecture.png)
   
-  ![Architecture](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Architecture/Architecture.png)
-  
-</details>
-
-<details>
-  <summary>Превью дашборда в Excel</summary>
-  
-  ![Architecture](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Superstore%20Dashboard/Превью%20дашборд%20в%20Excel.png)
-
-</details>
+[Превью дашборда в Excel](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Superstore%20Dashboard/Superstore%20Dashboard.xlsx)
+![Architecture](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Superstore%20Dashboard/Превью%20дашборд%20в%20Excel.png)
