@@ -11,12 +11,3 @@
 - Построен интерактивный дашборд в `Power BI`
 
 ![Дашборд по статистике covid-19](https://github.com/ReIZzz/DE-101/blob/main/Module%203/PowerBI/img/Dash_PowerBI.PNG)
-
-
-
-<details>
-  <summary>- Построен интерактивный дашборд в `Power BI`</summary>
-  
-  ![Architecture](https://github.com/ReIZzz/DE-101/blob/main/Module%201/Architecture/Architecture.png)
-  
-</details>
