@@ -17,6 +17,7 @@
 
 - Сформировано два списка прилагательных имеющих [положительный эмоциональный окрас (600 шт)](https://github.com/ReIZzz/DE-101/blob/main/Module%203/CapstoneProject/Positive%20Adjectives%20(600)) и [отрицательный эмоциональный окрас (800 шт)](https://github.com/ReIZzz/DE-101/blob/main/Module%203/CapstoneProject/Negative%20Adjectives%20(800))
 - Написан [скрипт на `Python`](https://github.com/ReIZzz/DE-101/blob/main/Module%203/CapstoneProject/prepare.py) для подсчета процента удовлетворенности гостей
+
 - [Результаты подсчета](https://github.com/ReIZzz/DE-101/blob/main/Module%203/CapstoneProject/rating.csv) добавлены к имеющемуся датасету для посторения дашборда
 
 Дашборд на [TableauPublic](https://public.tableau.com/views/CapstoneProjectAirbnb_16358502709610/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
