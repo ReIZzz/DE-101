@@ -16,4 +16,4 @@
 Дашборд на [TableauPublic](https://public.tableau.com/views/CapstoneProjectAirbnb_16358502709610/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 
-(тут должна быть красивая превьюха дашика =)   )
+![Дашборд Airbnb](https://github.com/ReIZzz/DE-101/blob/main/Module%203/CapstoneProject/img/Listings%20Analysis%20Dash%20(Airbnb).png)
