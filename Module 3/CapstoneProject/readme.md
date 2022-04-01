@@ -13,6 +13,12 @@
 - `reviews.csv` — список отзывов по каждому объекту
 - `reviews_summary.csv` — суммарная информация по отзывам на объект
 
+Имеющиеся данные обогащены сведениями об удовлетворенности гостей. Удовлетворенность рассчитана как отношение количества прилагательных имеющих положитлеьный эмоциональный окрас к количеству имеющих отрицательный эмоциональный окрас встречающихся в отзывах гостей.
+
+- Сформировано два списка прилагательных имеющих [положительный эмощиональный окрас](https://github.com/ReIZzz/DE-101/blob/main/Module%203/CapstoneProject/Positive%20Adjectives%20(600)) и [отрицательный](https://github.com/ReIZzz/DE-101/blob/main/Module%203/CapstoneProject/Negative%20Adjectives%20(800))
+- Написан [скрипт на `Python`](https://github.com/ReIZzz/DE-101/blob/main/Module%203/CapstoneProject/prepare.py) для подсчета процента удовлетворенности гостей
+- [Результаты подсчета](https://github.com/ReIZzz/DE-101/blob/main/Module%203/CapstoneProject/rating.csv) добавлены к имеющемуся датасету для посторения дашборда
+
 Дашборд на [TableauPublic](https://public.tableau.com/views/CapstoneProjectAirbnb_16358502709610/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 
