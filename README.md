@@ -5,7 +5,6 @@
 - Архитектура аналитического решения
 - Выполнение аналитики в _excel_
 - Построение интерактивного дашборда в _excel_
-##### [(полное описание задания модуля №1)](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/readme.md)
 
 ## [Модуль 2](https://github.com/ReIZzz/DE-101/blob/main/Module%202/ReadMe.md)
 - Локальная установка `PostreSQL` и загрузка данных
